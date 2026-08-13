@@ -7,24 +7,14 @@ This project documents the deployment and configuration of a Wazuh security moni
 
 The objective of this lab is to build a small cybersecurity monitoring environment and demonstrate the collection, analysis, and detection of security events from an endpoint.
 
-🏗️ Architecture
-                         ┌─────────────────────────┐
-                         │      Ubuntu Server      │
-                         │                         │
-                         │   Wazuh Manager         │
-                         │   Wazuh Indexer         │
-                         │   Wazuh Dashboard       │
-                         │                         │
-                         └────────────┬────────────┘
-                                      │
-                                      │ Security Events
-                                      │
-                         ┌────────────▼────────────┐
-                         │     Windows Endpoint    │
-                         │                         │
-                         │      Wazuh Agent        │
-                         │                         │
-                         └─────────────────────────┘
+
+<img width="989" height="498" alt="image" src="https://github.com/user-attachments/assets/c5f7485f-f2cf-4c19-b39e-21aa932dfd40" />
+
+
+
+
+
+
 
 
 🎯 Objectives
@@ -38,16 +28,7 @@ The objective of this lab is to build a small cybersecurity monitoring environme
 * Practice security event investigation and detection analysis.
   
 
- 🛠️ Technologies
-
-| Technology | Purpose |
-| **Wazuh** | Security monitoring and SIEM/XDR platform |
-| **Ubuntu Server** | Wazuh Manager infrastructure |
-| **Windows** | Monitored endpoint |
-| **Wazuh Agent** | Endpoint data collection |
-| **PowerShell** | Windows administration and agent deployment |
-| **Linux** | Server administration |
-| **MITRE ATT&CK** | Detection and attack technique mapping |
+ 
 
 
 📦 Environment
